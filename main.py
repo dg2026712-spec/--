@@ -1,4 +1,4 @@
-box(size = vec(60,15,5))
+box(size = vec(800,330,15), texture="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDcZA0DD0CSfz4etaHUismgenTXa9HmvknE0k4a1LEg&s")
 
 ball = sphere(pos=vec(-10,20,0), radius=0.5, color=color.cyan, make_trail=True)
 g = vec(0,-9.8,0)
