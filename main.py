@@ -9,3 +9,16 @@ while ball.pos.y > 0:
     rate(100)
     ball.pos = ball.pos + ball.v * dt
     ball.v = ball.v + g * dt
+import time
+import winsound
+
+scale = {
+    "도": 261,
+    "레": 293,
+    "미": 329,
+    "파": 349,
+    "솔": 392,
+    "라": 440,
+    "시": 493,
+    " 공백 ": 0  
+}
