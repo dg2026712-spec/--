@@ -23,7 +23,6 @@ while True:
         random_vy = random.uniform(40, 85)
         
         ball.v = vec(random_vx, random_vy, 0)
-import time
-import winsound
+
 
 
