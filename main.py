@@ -14,7 +14,7 @@ dt = 0.01
 
 colors = [color.cyan, color.red, color.green, color.orange, color.yellow, color.magenta]
 
-bounce_patterns = [vec(10, 15, 0), vec(10, 14, 0), vec(10, 15, 0), vec(10, 4, 0)]
+bounce_patterns = [vec(10, 55, 0), vec(10, 14, 0), vec(10, 15, 0), vec(10, 4, 0)]
 
 pattern_index = 0 
 
