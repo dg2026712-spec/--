@@ -23,7 +23,7 @@ while True:
     ball.pos = ball.pos + ball.v * dt
     ball.v = ball.v + g * dt
     
-    if ball.pos.y <= bounce_pattens[0].y:
+    if ball.pos.y <= bounce_patterns[0].y:
         sleep(1)
         ball.color = random.choice(colors)
         ball.trail_color = ball.color
